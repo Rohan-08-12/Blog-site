@@ -1,0 +1,80 @@
+/* Card styling */
+.custom-card {
+  position: relative;
+  z-index: 1; /* Ensure card is on top of the background */
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow around the card */
+}
+
+/* Card header */
+.custom-card-header {
+  background-color: #007bff; /* Bright blue for the header */
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+/* Custom input fields */
+.custom-input {
+  border-radius: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  margin-bottom: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.custom-input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Button styling */
+.custom-btn {
+  background-color: #007bff;
+  border-color: #007bff;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+  padding: 10px;
+}
+
+.custom-btn:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.custom-btn:focus {
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Link styling */
+.text-primary {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.text-primary:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #333;
+  color: white;
+}
+
+/* Responsive design for small screens */
+@media (max-width: 576px) {
+  .custom-card {
+    border-radius: 10px;
+  }
+  .custom-btn {
+    font-size: 1rem;
+  }
+}
+
+
